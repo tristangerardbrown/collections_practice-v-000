@@ -55,3 +55,12 @@ end
 def sum_array(integers)
   integers.inject(0) { |result, element| result + element }
 end
+
+def add_s(array)
+  new_array = []
+  array.each_with_index.collect do |element, index|
+    array[1] = new_array[1]
+    new_array << element.unshift("s")
+  end
+  new_array 
+end
