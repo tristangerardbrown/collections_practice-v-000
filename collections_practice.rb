@@ -54,5 +54,4 @@ end
 
 def sum_array(integers)
   integers.inject(0) { |result, element| result + element }
-  integers
-end 
+end
