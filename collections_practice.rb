@@ -48,6 +48,11 @@ def find_a(strings)
     if word.start_with?("a")
       a_strings << word
   end
-end 
+end
   a_strings
 end
+
+def sum_array(integers)
+  integers.inject(0) { |result, element| result + element }
+  integers
+end 
