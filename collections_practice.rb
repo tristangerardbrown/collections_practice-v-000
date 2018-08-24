@@ -44,8 +44,8 @@ end
 
 def find_a(strings)
   a_strings = []
-  strings.each do |word|
+  strings.collect do |word|
     a_strings << word.start_with?("a")
   end
   a_strings
-end 
+end
