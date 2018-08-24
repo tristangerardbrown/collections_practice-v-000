@@ -48,5 +48,6 @@ def find_a(strings)
     if word.start_with?("a")
       a_strings << word
   end
+end 
   a_strings
 end
