@@ -61,5 +61,6 @@ def add_s(array)
    if index != 1
      item << "s"
  end
+ end 
  item
  end
