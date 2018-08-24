@@ -57,10 +57,8 @@ def sum_array(integers)
 end
 
 def add_s(array)
-  new_array = []
-  array.each_with_index.collect do |element, index|
-    array[1] = new_array[1]
-    new_array << element.unshift("s")
-  end
-  new_array 
-end
+  array.each_with_index.collect do |item, index|
+   index != 1 ? item << "s"
+ end
+ item
+ end 
